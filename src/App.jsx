@@ -1,6 +1,15 @@
+import React from "react"
+import Header from "./components/header"
+import Footer from "./components/footer"
 
-function App() {
-  <h1>hello</h1>
+function App(){
+  return (
+    <React.Fragment>
+
+    <Header />
+
+    </React.Fragment>
+  )
 }
 
 export default App
